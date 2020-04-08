@@ -4,10 +4,10 @@ branding:
   icon: "cloud"
   color: "orange"
 inputs:
-  webhook: https://hooks.chime.aws/incomingwebhooks/7c49134b-5eba-469c-a386-9913c43dd42b?token=ZElWVDhPT0R8MXxwODR1amliNXNvczlJcXVmREJVd3lPZFpMWU9SNDdUX08td1B3YzVqeFgw
+  webhook: "https://hooks.chime.aws/incomingwebhooks/7c49134b-5eba-469c-a386-9913c43dd42b?token=ZElWVDhPT0R8MXxwODR1amliNXNvczlJcXVmREJVd3lPZFpMWU9SNDdUX08td1B3YzVqeFgw"
     description: "The URL of the Amazon Chime Webhook"
     required: true
-  message: Hello
+  message: "Hello"
     description: "The message that is send to the Amazon Chime chat room"
     required: true
   no-markdown:
